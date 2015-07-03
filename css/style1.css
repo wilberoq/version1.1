@@ -1,14 +1,3 @@
-@font-face { 
-  font-family: Jenna Sue; 
-    src: url('../fonts/JennaSue-webfont.eot'); 
-    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
-} 
-
-@font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
 
 html { 
   height: 100%;}
@@ -17,7 +6,7 @@ html {
   margin: 0; 
   padding: 0;}
 
-/* tell the browser to render HTML 5 elements as block */
+/* decirle al navegador para hacer HTML 5 elementos como bloque */
 article, aside, figure, footer, header, hgroup, nav, section { 
   display:block;}
 
@@ -150,7 +139,7 @@ footer p {
 footer a, footer a:hover {
   text-decoration: none;}
 
-/* styling for the slideshow on the homepage */
+/*estilo para la presentación de la página principal */
 ul.slideshow {
   width: 950px;
   height: 450px;
@@ -189,7 +178,7 @@ ul img {
   padding: 0;
   font: normal 130% arial, sans-serif;}
 
-/* form styling */
+/* forma estilo*/
 .form_settings { 
   margin: 0;}
 
@@ -281,7 +270,7 @@ ul img {
   margin: 0 0 15px 0;
   padding: 5px 0;}
 
-/* stylesheet for sooperFish by www.sooperthemes.com -- author: jurriaan roelofs */
+/* hoja de estilos para sooperFish  */
 html body ul.sf-menu ul,html body ul.sf-menu ul li { 
   width: 180px;}
 
@@ -303,7 +292,7 @@ ul.sf-menu li {
   position: relative;}
   
 ul.sf-menu li:hover { 
-  visibility: inherit; /* fixes IE7 'sticky bug' */ }
+  visibility: inherit; /* Corrección de errores pegajosa IE7 '' */ }
 
 ul.sf-menu a { 
   display: block;
@@ -320,7 +309,7 @@ ul.sf-menu ul a {
   zoom: 1; /* IE6/7 fix */ }
 
 ul.sf-menu ul li { 
-  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  float: left; /* Siempre debe ser flotado de lo contrario habrá un 1px pícaro margin-bottom en IE6 / 7 */
   width: 150px;}
   
 ul.sf-menu ul ul { 
@@ -339,7 +328,7 @@ ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul
 ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
   left: -999999px;}
 
-/* autoArrows CSS */
+/* flechas de automóviles */
 span.sf-arrow { 
   width: 7px;
   height: 7px;
@@ -347,7 +336,7 @@ span.sf-arrow {
   top: 20px;
   right: 5px;
   display: block;
-  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  overflow: hidden; /* asegurándose de que IE6 no se desborde y ampliar el cuadro */
   font-size: 1px;
 }
 
@@ -357,7 +346,7 @@ ul ul span.sf-arrow {
   background-position: 0 100%;
 }
 
-/* theming the menu */
+/* Tematización el menú */
 nav { 
   height: 44px;
   width: 950px;
@@ -367,7 +356,7 @@ nav {
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;} 
 
-/* Theming the menu */
+/* Tematización el menú*/
 ul#nav { 
   float: left;
 }
